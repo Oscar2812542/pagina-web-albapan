@@ -1,0 +1,2 @@
+SELECT * FROM productos 
+WHERE caducidad <= DATE_ADD(CURDATE(), INTERVAL 5 DAY);

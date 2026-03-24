@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: #FFF8EE;
+    color: #4A2E14;
+}
+
+/* ---------- LOGIN ---------- */
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 30px;
+    width: 360px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(139, 90, 43, 0.25);
+    border-top: 6px solid #D88A2D;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8B5A2B;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #E6B65C;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #D88A2D;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #D88A2D;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-box button:hover {
+    background: #8B5A2B;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background: linear-gradient(90deg, #8B5A2B, #D88A2D);
+    padding: 15px 25px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    letter-spacing: 1px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    background: #E6B65C;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background: #D88A2D;
+}
+
+/* ---------- CONTENEDOR ---------- */
+.container {
+    padding: 25px;
+}
+
+/* ---------- CARDS ---------- */
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(139, 90, 43, 0.15);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #8B5A2B;
+}
+
+/* ---------- FORMULARIO ---------- */
+.form-producto input {
+    padding: 9px;
+    margin-right: 8px;
+    border-radius: 6px;
+    border: 1px solid #E6B65C;
+}
+
+.form-producto button {
+    padding: 9px 18px;
+    background: #D88A2D;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-producto button:hover {
+    background: #8B5A2B;
+}
+
+/* ---------- TABLA ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #8B5A2B;
+    color: #fff;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #E6B65C;
+}
+
+tr:hover {
+    background: #FFF3E0;
+}
+
+/* ---------- ACCIONES ---------- */
+.acciones a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* ---------- ALERTA CADUCIDAD ---------- */
+.caduca {
+    background: #FFE2C6 !important;
+}
+
+/* ---------- MENSAJES ---------- */
+.mensaje.exito {
+    background: #E6F4D7;
+    padding: 10px;
+    border-left: 5px solid #8B5A2B;
+}
+
+.mensaje.error {
+    background: #F8D7DA;
+    padding: 10px;
+    border-left: 5px solid #8B0000;
+}
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--crema);
+  color: var(--cafe-oscuro);
+}
+
+.top{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:20px 40px;
+  background:#F3E8DB;
+}
+
+.top nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:var(--cafe);
+  font-weight:500;
+}
+
+.btn{
+  background: var(--cafe);
+  color:#fff;
+  padding:10px 20px;
+  border-radius:25px;
+  text-decoration:none;
+}
+
+.hero{
+  height:70vh;
+  background:url('../img/hero.jpg') center/cover;
+  display:flex;
+  align-items:center;
+  padding-left:60px;
+}
+
+.hero-text{
+  background: rgba(246,239,231,0.9);
+  padding:40px;
+  border-radius:15px;
+}
+
+.hero h1{
+  font-size:48px;
+  margin-bottom:10px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:30px;
+  padding:50px;
+}
+
+.card{
+  background:#fff;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+
+.card h3{
+  text-align:center;
+  padding:15px;
+}
+
+/* ---------- LOGIN PANADERIA ---------- */
+
+.login-body{
+    background: linear-gradient(135deg, #F6EFE7, #EAD9C3);
+    min-height: 100vh;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-card{
+    background: #fff;
+    padding: 40px;
+    width: 380px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(122, 74, 46, 0.25);
+}
+
+.login-logo{
+    width: 140px;
+    margin-bottom: 15px;
+}
+
+.login-card h2{
+    color: #7A4A2E;
+    margin-bottom: 5px;
+}
+
+.login-card p{
+    color: #9B6A4A;
+    margin-bottom: 25px;
+}
+
+.login-card input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #C89B63;
+    font-size: 15px;
+}
+
+.login-card input:focus{
+    outline: none;
+    border-color: #7A4A2E;
+}
+
+.login-card button{
+    width: 100%;
+    padding: 12px;
+    background: #7A4A2E;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-card button:hover{
+    background: #4A2E14;
+}
+body{
+    margin:0;
+    font-family:'Segoe UI', sans-serif;
+    background:#F6EFE7;
+}
+
+.dashboard-body{
+    display:flex;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:240px;
+    background:#7A4A2E;
+    color:#fff;
+    min-height:100vh;
+    padding:20px;
+}
+
+.logo{
+    width:100%;
+    border-radius:10px;
+}
+
+.sidebar nav a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:10px;
+    border-radius:8px;
+    margin-top:8px;
+}
+
+.sidebar nav a:hover{
+    background:#C89B63;
+}
+
+/* CONTENIDO */
+.content{
+    flex:1;
+    padding:30px;
+}
+
+.topbar{
+    background:#7A4A2E;
+    padding:20px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+/* ALERTAS */
+.alert{
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.success{ background:#D4EDDA; }
+.edit{ background:#CCE5FF; }
+.delete{ background:#F8D7DA; }
+
+/* FORMULARIO */
+.form-box{
+    background:#fff;
+    padding:20px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+.form-box input, .form-box button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+button{
+    background:#7A4A2E;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+}
+
+/* TABLA */
+.tabla{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+th{
+    background:#7A4A2E;
+    color:#fff;
+    padding:12px;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+tr:hover{
+    background:#F6EFE7;
+}
+/* ---------- TARJETAS RESUMEN ---------- */
+
+.cards-resumen{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card-resumen{
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(122,74,46,0.15);
+}
+
+.card-resumen h4{
+    color: #9B6A4A;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.card-resumen p{
+    font-size: 36px;
+    font-weight: bold;
+    color: #7A4A2E;
+}
+
+/* COLORES */
+.card-resumen.warning{
+    border-left: 6px solid #F0AD4E;
+}
+
+.card-resumen.danger{
+    border-left: 6px solid #D9534F;
+}
+/* ---------- ALERTAS COLOREADAS ---------- */
+
+.alertas ul{
+    list-style:none;
+    padding:0;
+}
+
+.alertas li{
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:10px;
+    font-weight:500;
+}
+
+/* COLORES */
+.alerta-naranja{
+    background:#FFF3CD;
+    border-left:6px solid #F0AD4E;
+}
+
+.alerta-roja{
+    background:#F8D7DA;
+    border-left:6px solid #D9534F;
+}
+.semaforo{
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    display:inline-block;
+    margin-right:8px;
+}
+
+.verde{
+    background:#28a745;
+}
+
+.amarillo{
+    background:#ffc107;
+}
+
+.rojo{
+    background:#dc3545;
+}
